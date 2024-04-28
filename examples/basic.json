@@ -1,0 +1,11 @@
+{
+    "token": ".env/DISCORD_BOT_TOKEN",
+    "commands": [
+        {
+            "name": "ping",
+            "desc": "Ping command!",
+            "args": [],
+            "resp": "$[inter.client.latency]ms!"
+        }
+    ]
+}
